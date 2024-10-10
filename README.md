@@ -12,3 +12,5 @@ My primary source for information on sandpiles comes from [this bachelor's thesi
 
 ## Downsides
 Either due to being written in Python or I am a bad programmer, it becomes infeasible on my computer to calculate identities past 40x40. This makes me want to rewrite the program in a faster language, which I may very well do.
+
+One way I could do this would be to take advantage of the fact that the identities are symmetrical, and just see if a certain region (e.g. 1/8 sector for a square) is stable, in which case I can stitch the result.
